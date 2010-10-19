@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeywordsDocument version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost/xsd/KeywordsDocument.xsd">
+	<Keyword id="_123" name="FECHA" type="date" default="now" required="false" historial="false">30/11/2007</Keyword>
+	<Keyword id="_124" name="COMERCIAL" type="text" historial="true">blas</Keyword>
+
+	<KeywordMultiple id="_125" name="TELEFONO CLIENTE" type="text">
+		<Keyword id="_137" name="TELEFONO" type="text">4456</Keyword>
+	</KeywordMultiple>
+
+	<Keyword id="_126" name="IMPORTE" type="numeric">345</Keyword>
+	<Keyword id="_127" name="DESCRIPCION" type="memo">blabla</Keyword>
+	<Keyword id="_127b" name="DESCRIPCION" type="memo">blabla</Keyword>
+
+	<KeywordGroup id="_128" name="DIRECCION CLIENTE">
+
+		<KeywordMultiple id="_138" name="GRUPO Multiple" type="group"/>
+
+		<Keyword id="_129" name="DIRECCION" type="text">sdfsdfee</Keyword>
+		<Keyword id="_130" name="LOCALIDAD" type="text" default="Petrer" historial="true">Petrer</Keyword>
+		<Keyword id="_131" name="PROVINCIA" type="text" default="Alicante" historial="true">Alicante</Keyword>
+	</KeywordGroup>
+
+	<Keyword id="_132" name="CONTADOR" type="autonum" period="jarl" modificable="true">qwe</Keyword>
+	<Keyword id="_133" name="FIRMA" type="boolean" default="false">false</Keyword>
+</KeywordsDocument>
