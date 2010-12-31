@@ -254,7 +254,7 @@ class NodeInfo
 		$delta = array();
 
 		// check changes in node value
-		if ($this->value != $n->getValue()) {
+		if ($this->value !== $n->getValue()) {
 			$delta[] = array(
 				'action' => 'update',
 				'xpath'  => $this->getXPath(),
