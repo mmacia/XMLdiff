@@ -1,5 +1,5 @@
 <?php
-require dirname(dirname(__FILE__)) . '/src/XmlDiff.php';
+require_once dirname(dirname(__FILE__)) . '/src/XmlDiff.php';
 
 class XmlDiffTest extends PHPUnit_Framework_TestCase
 {
